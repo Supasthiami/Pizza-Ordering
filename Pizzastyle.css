@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	background-color:  #4e331e; 
+	color:white;
+}
+
+.ima>img {
+ filter:blur(2px);
+}
+
+.header {
+    overflow: hidden;
+	background-image: url("pizza31.jpg");
+    padding: 10px 10px;
+	background-color:#ebc58e;  /*#CD853F;*/
+	background-repeat:no-repeat;
+	background-size:90px;
+}
+
+
+.header form {
+    float: left;
+	text-align: center;
+    padding: 12px;
+	border-radius: 4px;
+}
+
+.logo{
+	font-size: 35px;
+    font-weight: bold;
+	left:8%;
+    color: #7d2626;   
+    padding: 12px;
+	position:absolute;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+     .logo {
+        float: none;
+        display: none;
+        text-align: right;
+    }
+	.header{
+		background-image: none;
+	}
+    .header-right {
+        float: none;
+    }
+    .mySlides {
+      
+        width: 100%;
+        height: 500px;
+    }
+	
+}
+
+.image {
+    border-width: 2px;
+    border-color: black;
+    background-color:#4e331e;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.ima {
+    border-width: 2px;
+    border-color: black;
+    background-color: 	#4e331e;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.textcol{
+	color: #3c1d08;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mySlides {
+    width: 100%;
+    height: 500px;
+}
+
+.slide {
+    width: 100%;
+    height: 700px;
+}
+
+input[type=text],
+input[type=date],
+input[type=checkbox],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=password]{
+	 padding: 12px 20px;
+    margin: 5px 0; 
+}
+
+button[type=submit] {
+    background-color:#2a1b10;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+	
+}
+
+input[type=submit] {
+    background-color: #2a1b10;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+.msg {
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #2a1b10;
+    border: 1px solid #000000;
+    width: 75%;
+    text-align: center;
+	clear:both;
+	
+}
